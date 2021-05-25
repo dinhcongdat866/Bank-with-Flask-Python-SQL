@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <button id="user_login" class="float-left submit-button" >Log in for user</button>
+
+            <script type="text/javascript">
+                document.getElementById("user_login").onclick = function () {
+                    location.href = "http://127.0.0.1:5000/login";
+                };
+            </script>
+
+    <button id="admin_login" class="float-left submit-button" >Log in for admin</button>
+
+    <script type="text/javascript">
+    document.getElementById("admin_login").onclick = function () {
+        location.href = "http://127.0.0.1:5000/login-admin";
+    };
+    </script>
+        </head>
+    </body>
+</html>

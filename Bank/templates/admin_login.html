@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <form action="{{url_for('admin_login')}}" method="post" id="admin_login">
+                <label for="adminname">Admin:</label>
+                <input type="text" id="adminname" name="adminname"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+              </form>
+              <button type="submit" form="admin_login" value="Submit">Log in</button>
+        </head>
+    </body>
+</html>
+
